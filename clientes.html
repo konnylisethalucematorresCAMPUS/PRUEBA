@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <script src="js/bootstrap/bootstrap.min.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Airlines</title>
+</head>
+
+<body>
+<!--menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+        
+                    <img src="img/logoPrincipal-s.png" width="40px">
+                    <a class="navbar-brand" href="#"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/clientes.html">REGISTRO DE CLIENTES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/rutasAereas.html">MODULO DE RUTAS AEREAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/compraTiquetes.html">COMPRA DE TIQUETES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">EMBARQUE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/personal.html">MODULO DE PERSONAL</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </nav>
+
+     <!-- formulario de clientes -->
+
+     <h1>REGISTRO DE CLIENTES</h1>
+
+    <form href="#clientes" id="formulario2">
+        <div class="resgistro-clientes">
+            <div class="caja2"></div>
+                <label>Numero De Documento</label>
+                <input type="number" id="informacion-identificacion" placeholder="Ingresar Numero De Id">
+            </div>
+
+            <div class="caja2">
+                <label>Nombres</label>
+                <input type="text" id="info-nombre" placeholder="Ingresar Nombres">
+            </div>
+
+            <div class="caja2">
+                <label>Apellidos</label>
+                <input type="text" id="info-apellidos" placeholder="Ingresar Apellidos">
+            </div>
+
+            <div class="caja2">
+                <label>Fecha De Nacimiento</label>
+                <input type="date" id="info-fecha-nacimiento" placeholder="Ingresar Fecha Nacimiento">
+            </div>
+
+            <div class="caja2">
+                <label>Telefono</label>
+                <input type="number" id="info-telefono" placeholder="Ingresar Telefono">
+            </div>
+
+            <div class="caja2">
+                <label>Correo</label>
+                <input type="email" id="info" placeholder="Ingresar Correo">
+            </div>
+
+            <div class="caja2">
+                <label>Pais De Origen</label>
+                <input type="text" id="info-pais-origen" placeholder="Ingrese Pais Origen">
+            </div>
+
+            <div class="caja2">
+                <label>Ciudad De Origen</label>
+                <input type="text" id="info-ciudad-origen" placeholder="Ingrese Ciudad Origen">
+            </div>
+
+            <div class="boton">
+                <button type="submit">ENVIAR</button>
+            </div>
+        </div>
+    </form>
+    <div id="contenido"></div>
+
+</body>
+</html>

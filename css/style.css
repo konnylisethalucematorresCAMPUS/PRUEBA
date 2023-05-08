@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+/*diseño de la letra*/
+h1{
+    text-align: center;
+    color:red;
+    font-style:italic;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,#231557 0%, #44107a 29%,#ff1361 67%,#fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 30px;
+    }
+    @keyframes textclip {
+        to {
+          background-position: 200% center;
+        }
+      }
+
+/*formulario*/
+
+form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: rgb(73, 181, 214);
+    opacity: 1.0px;
+    padding: 35px;
+    border-radius:16px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight:bold;
+    
+
+}
+
+input{
+    padding: 10px;
+    border-radius:13px;
+
+}
+select{
+    padding: 10px;
+    border-radius:13px;
+}
+button{
+    padding: 10px;
+    border-radius: 13px;
+    width: 25%;
+    background-color: royalblue ;
+    color: white;
+    border:none;
+    font-size:16px;
+    font-weight:bold;
+
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.bienvenido{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+.texto{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items:center;
+}
+.imagen-inicio{
+    width: 351px;
+}
+
+

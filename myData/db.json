@@ -1,0 +1,32 @@
+{
+    "clientes":[
+        {
+            "numeroIdentificacion":"",
+            "nombres":"",
+            "apellidos":"",
+            "infoFechaNacimiento":"",
+            "telefono":"",
+            "correo":"",
+            "paisOrigen":"",
+            "ciudadOrigen":""
+        }
+    ],
+    "rutasAereas":[
+        {
+            "numeroAeronave":"",
+            "cantidadPasajeros":"",
+            "fechaCompra":"",
+            "numeroMatricula":""
+        }
+    ],
+    "personal":[
+        {
+            "numeroIdentificacion":"",
+            "nombres":"",
+            "apellidos":"",
+            "correo":"",
+            "telefono":"",
+            "profesion":""
+        }
+    ]
+}
